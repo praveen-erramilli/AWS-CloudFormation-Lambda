@@ -1,4 +1,4 @@
-#AWS Lambda as Custom Resources in AWS CloudFormation (Java, Lambda, RDS)
+# AWS Lambda as Custom Resources in AWS CloudFormation (Java, Lambda, RDS)
 
 Custom Resources are a way to call resources that are not directly supported by CloudFormation template.
 Here in this post, I would like to share my experience with using AWS Lambda, CloudFormation, RelationalDatabase Service(AWS RDS) with Java as the language. The main purpose of this post is to help people who are trying to setup AWS Lambda as Custom Resource in CloudFormation. Make sure you experiment this under AWS free tier and delete the resources after you use it. Else you would be charged for the resource usage.
